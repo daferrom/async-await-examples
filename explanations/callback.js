@@ -1,4 +1,4 @@
-function requesHandler(req, res) {
+function requestHandler(req, res) {
     UserActivation.findById(req.id, function(){
         if(err) {
             res.send(err;)
